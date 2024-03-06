@@ -1,2 +1,2 @@
 # portfolio
-Personal portfolio for personal, business and professional purposes
+This project is intended for a personal use of a functional portfolio, CMS
