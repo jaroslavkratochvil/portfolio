@@ -1,0 +1,19 @@
+/* CircleImage.css */
+
+.circular-image-container {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc; /* šedá barva */
+  }
+  
+  .circular-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Zajistí, aby se obrázek vyplnil do kruhového kontejneru */
+  }
+  

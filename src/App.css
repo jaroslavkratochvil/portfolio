@@ -1,0 +1,267 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ojuju-mine {
+  font-family: "Ojuju", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.componentName {
+  font-family: 'Madimi One';
+  font-size: 25px;
+  color: white;
+}
+
+.componentText {
+  font-family: 'Madimi One';
+  font-size: 20px;
+  text-align: justify;
+  color: grey;
+}
+
+.education-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-left: 2px solid grey;
+  border-radius: 10px;
+  background-color: #000000;
+}
+
+.education-item h3 {
+  margin-bottom: 5px;
+  font-family: 'Madimi One';
+  font-size: 20px;
+  color: #ccccccd6;
+}
+
+
+.education-item p {
+  margin: 0;
+  font-family: 'Madimi One';
+  font-size: 18px;
+  color: #666;
+}
+
+.experience-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  margin-right: 10px;
+  border-left: 2px solid grey;
+  border-radius: 10px;
+  background-color: #000000;
+}
+
+.experience-item h3 {
+  margin-bottom: 5px;
+  font-family: 'Madimi One';
+  font-size: 20px;
+  color: #ccccccd6;
+}
+
+.experience-item p {
+  margin: 0;
+  font-family: 'Madimi One';
+  font-size: 18px;
+  color: #666;
+}
+
+.experience-item li {
+  font-family: 'Madimi One';
+  font-size: 18px;
+}
+
+nav {
+  display:flex;
+  flex-direction: column;
+  align-items: center; /* Zarovná položky ve sloupci horizontálně */
+  justify-content: center; /* Zarovná položky ve sloupci vertikálně */
+}
+
+nav ul {
+  list-style-type: none; /* Odstraní odrážky */
+  padding: 0; /* Odstraní vnitřní odsazení */
+  margin: 0; /* Odstraní vnější odsazení */
+  display: flex; /* Nastaví flexbox layout pro zobrazení položek vedle sebe */
+  flex-direction: column; /* Zarovná položky vertikálně */
+  align-items: center; /* Zarovná položky horizontálně */
+}
+
+nav li {
+  margin-bottom: 10px; /* Mezera mezi jednotlivými položkami */
+}
+
+nav a {
+  text-decoration: none; /* Odstraní podtržení u odkazů */
+  color: #333; /* Barva textu */
+  font-family: 'Ojuju', sans-serif;
+  font-optical-sizing: auto;
+  font-size: 3em;
+  font-weight: 400;
+  font-weight: bold; /* Tučné písmo */
+}
+
+nav a:hover {
+  color: #555; /* Barva textu při najetí myší */
+}
+
+/* Základní styly pro celou stránku */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Styly pro hlavní kontejner, který rozděluje stránku na dva sloupce */
+.container {
+  display: flex;
+  height: 100vh; /* Výška kontejneru bude odpovídat výšce okna prohlížeče */
+  
+}
+
+/* Styly pro levý sloupec */
+.left-column {
+  flex: 1; /* Sloupec se bude roztahovat, aby zabíral dostatečný prostor */
+  background-color: rgb(0, 0, 0); 
+  padding: 10px;
+}
+
+.left-column-content {
+  margin-left: 2%; /* Odsazení 2 % šířky levého sloupce */
+  margin-right: 2%; /* Odsazení 2 % šířky pravého sloupce */
+  height: 80vh; /* Výška 70 % velikosti okna prohlížeče */
+  display: flex; /* Flexbox layout */
+  margin-top: 10%;
+  color: white;
+  justify-content: left; /* Zarovnání obsahu na střed horizontálně */
+  font-family: 'Montserrat';
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.194) black;
+}
+
+/* Styly pro pravý sloupec */
+.right-column {
+  flex: 1; /* Sloupec se bude roztahovat, aby zabíral dostatečný prostor */
+  background-color: white; /* Bílé pozadí */
+  padding: 10px;
+  display: flex; /* Nastaví flexbox layout */
+  flex-direction: column; /* Zarovná položky vertikálně */
+  align-items: center; /* Zarovná položky horizontálně */
+  justify-content: center; /* Zarovná položky ve sloupci vertikálně */
+  position: relative;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 800ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 800ms ease-in;
+}
+
+/* Styly pro dropdown */
+.dropdown {
+  position: absolute;
+  top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.dropbtn {
+  background-color: #fff;
+  color: #333;
+  padding: 10px;
+  font-size: 16px;
+  border: solid 1px grey;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none; /* Na začátku schované */
+  position: absolute; /* Absolutní pozice relativně k rodiči */
+  top: 100%; /* Umístění pod hlavní položkou dropdownu */
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, 0); /* Posunutí o polovinu šířky a výšky */
+  
+  background-color: #f9f9f9; /* Barva pozadí */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Stín */
+  z-index: 1; /* Aby byly položky dropdownu viditelné nad ostatními prvky */
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content.hide {
+  display: none;
+}
+
+
+
+
+
+
+
+
