@@ -12,7 +12,7 @@ function Experience() {
       employer: "Jaroslav Kratochvil (freelancer)",
       startDate: "09/2023",
       endDate: "present",
-      skills: ["communication", "assertiveness", "English", "driving"],
+      skills: ["Communication", "Assertiveness", "English", "Driving"],
       achievements: ""
     },
     {
@@ -50,27 +50,19 @@ function Experience() {
     {
       title: "Senior Business Analyst",
       employer: "IBM Global Service Delivery Center Czech Republic s.r.o.",
-      startDate: "10/2016",
+      startDate: "04/2016",
       endDate: "01/2018",
       skills: ["Asset management", "VBA for Excel", "Process management", "Teamwork", "Presentations", "English"],
-      achievements: [""]
+      achievements: ["Automated DACH Asset Mgmt Reporting Process and thus improved the quality and effectiveness of the team work."]
     },
-    {
+/*     {
       title: "",
       employer: "",
       startDate: "",
       endDate: "",
       skills: [],
       achievements: [""]
-    },
-    {
-      title: "",
-      employer: "",
-      startDate: "",
-      endDate: "",
-      skills: [],
-      achievements: [""]
-    },
+    }, */
   ];
 
   return (

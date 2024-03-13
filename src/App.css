@@ -166,9 +166,9 @@ body {
 .left-column-content {
   margin-left: 2%; /* Odsazení 2 % šířky levého sloupce */
   margin-right: 2%; /* Odsazení 2 % šířky pravého sloupce */
-  height: 80vh; /* Výška 70 % velikosti okna prohlížeče */
+  height: 40vh; /* Výška 70 % velikosti okna prohlížeče */
   display: flex; /* Flexbox layout */
-  margin-top: 10%;
+  margin-top: 30%;
   color: white;
   justify-content: left; /* Zarovnání obsahu na střed horizontálně */
   font-family: 'Montserrat';
@@ -257,6 +257,37 @@ body {
 .dropdown-content.hide {
   display: none;
 }
+
+.transportOrder {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+  font-family: 'Madimi One';
+  font-size: 20px;
+  color: #ccccccd6;
+}
+
+.transportOrder p {
+  margin: 0;
+  font-family: 'Madimi One';
+  font-size: 18px;
+  color: #666;
+}
+
+.transportOrder h3 {
+  margin-bottom: 5px;
+  font-family: 'Madimi One';
+  font-size: 25px;
+  color: #ccccccd6;
+}
+
+.promoButton {
+  margin-left: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: 'Madimi One'
+}
+
 
 
 

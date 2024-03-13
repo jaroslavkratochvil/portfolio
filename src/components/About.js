@@ -11,6 +11,7 @@ function About() {
   return (
     <div>
       <div className='componentName'>About me</div>
+      <br/>
         <div className='componentText'>
         My work experience includes {yearsOfExperience} years in the field of Information Technology (IT). 
         I have extensive experience in reporting, data analysis, customer support, planning, gathering requirements from clients, 

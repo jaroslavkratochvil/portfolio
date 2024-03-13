@@ -7,6 +7,7 @@ import Education from './Education';
 import Experience from './Experience';
 import Contact from './Contact';
 import Home from './Home';
+import TranssportOrder from './TransportOrder'
 import '../App.css';
 
 function LeftColumnContent() {
@@ -20,6 +21,7 @@ function LeftColumnContent() {
             <Route path="/education" element={<Education/>} />
             <Route path="/experience" element={<Experience/>} />
             <Route path="/contact" element={<Contact/>} />
+            <Route path="/taxi" element={<TranssportOrder/>} />
           </Routes>
       </motion.div>
   );
