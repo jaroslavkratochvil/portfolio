@@ -24,9 +24,9 @@ function Navigation() {
         <li>
           <Link to="/contact">Contact</Link>
         </li>
-        <li>
+{/*         <li>
           <Link to="/taxi">Order a taxi</Link>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );
